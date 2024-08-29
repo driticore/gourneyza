@@ -1,0 +1,121 @@
+
+#circle-small {
+    -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+    animation: circle-small-scale 3s ease-in-out infinite alternate;
+	animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+	animation-delay: 0s;
+	position: absolute;
+    overflow: hidden;
+	top: 150px;
+	left: -50px;
+    background: var(--color-gold);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 1;
+  z-index:-1;
+}
+
+#circle-small img{
+  width: 300px;
+  height: 300px;
+  -webkit-animation: none; 
+  animation: none;
+  animation-timing-function: none;
+
+}
+
+#circle-medium {
+    -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+    animation: circle-small-scale 3s ease-in-out infinite alternate;
+	animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+	animation-delay: 0.3s;
+	position: absolute;
+	top: 0px;
+	left: -200px;
+    background: var(--color-orange);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    opacity: 1;
+  z-index:-2;
+}
+
+#circle-large {
+    -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+    animation: circle-small-scale 3s ease-in-out infinite alternate;
+	animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+	animation-delay: 0.6s;
+	position: absolute;
+	top: -150px;
+	left: -350px;
+    background: var(--color-tan);
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    opacity: 1;
+  z-index:-3;
+}
+
+#circle-xlarge {
+    -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+    animation: circle-small-scale 3s ease-in-out infinite alternate;
+	animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+	animation-delay: 0.9s;
+	position: absolute;
+	top: -300px;
+	left: -500px;
+    background: var(--color-teal);
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    opacity: 1;
+    z-index:-4;
+}
+
+#circle-xxlarge {
+    -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+    animation: circle-small-scale 3s ease-in-out infinite alternate;
+	animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+	animation-delay: 1.2s;
+	position: absolute;
+	top: -450px;
+	left: -650px;
+    background: var(--color-brown);
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    opacity: 1;
+    z-index:-5;
+}
+
+@-webkit-keyframes circle-small-scale {
+    0% {
+        
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@keyframes circle-small-scale {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 1000px) {
+    .bg-circle {
+        scale: 55%;
+        position: absolute;
+        top: 30vh;
+        left: 0;
+        z-index: -1;
+    }
+
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourney | Contact Us</title>
+
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/grid.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header id="navbar"></header>
+    <main class="contact-container">
+        <div class="contact-title">
+            <h1>Contact Our Team</h1><br>
+            <p>Looking to know more about our services or scaling your business? Then You've come to the right place.
+                <br> We're here to help with 24/7 support in no less than 5 minutes. </p>
+
+        </div>
+        <div class="contact-row">
+            <div class="contact-left">
+                <form id="form" action="https://formsubmit.co/e0ca7620e44de739f714a5a00440e0e3" method="POST">
+                    <div class="contact-item">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Name" name="name" id="name" required>
+                    </div>
+
+                    <div stylen="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+                        <div class="contact-item">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" placeholder="012-345-6789"
+                                name="phone-umber" id="phone-number" required>
+                        </div>
+                        <div class="contact-item">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="Email" name="email" id="email" required>
+                        </div>
+
+                        <div class="contact-item">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit"
+                        style="margin-block: 30px; width: 100%; padding: 10px; border: none; background-color: black; color: white; border-radius: 5px;">Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h2>Chat with us</h2>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>+27 656763013</span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>gourneyza@gmail.com</span>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer-container" class="site-footer"></footer>
+
+
+    <script src="/components/footer.js"></script>
+    <script src="/components/navbar.js"></script>
+    <script src="/js/scripts.js"></script>
+
+</body>
+
+</html>
