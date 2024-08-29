@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded' , () => {
             <div class="footer-section links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/projects.html">Projects</a></li>
-                    <li><a href="/pages/projects.html">Services</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Services</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contacts.html">Contact Us</a></li>
                 </ul>

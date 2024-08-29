@@ -2,14 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const nav = document.getElementById('navbar');
 
     const header = `
-        <a href="/index.html"><img src="/images/logo.png" alt="Gourney Logo"></a>
+        <a href="index.html"><img src="/images/logo.png" alt="Gourney Logo"></a>
         <nav class="navbar">
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/projects.html">Projects</a></li>
-                <li><a href="/pages/service.html">Services</a></li>
-                <li><a href="/pages/about.html">About Us</a></li>
-                <li><a href="/pages/contact.html">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
