@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded' , () => {
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="projects.html">Services</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="contacts.html">Contact Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
     
