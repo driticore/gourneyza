@@ -318,7 +318,7 @@ header > a > img {
 
   .project-section {
     display: flex;
-    background: linear-gradient(var(--secondary) , var(--color-orange));
+    background: linear-gradient(var(--color-orange), var(--secondary));
     width: 100%;
     min-height: 100vh;
     z-index: 1;
@@ -381,14 +381,21 @@ header > a > img {
 
 /* Additional Styling for About Section */
 .about-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); /* Responsive grid columns */
+    gap: 5rem; /* Space between grid items */
     padding-top: 20vh;
     padding-bottom: 10vh;
     padding-inline: 3rem;
     width: 100%;
-    margin: auto;
-    background: linear-gradient(var(--secondary) , var(--color-orange));
+    margin: 0 auto;
+    background: linear-gradient(var(--color-orange), var(--secondary));
+}
 
-    border-radius: 8px;
+.about-section > div {
+    padding: 25px ;
+    background-color: var(--secondary);
+    border-radius: 5px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -472,8 +479,18 @@ header > a > img {
     border-radius: 10px;
     flex-wrap: wrap;
     width: 50%;
-    
+    transition: .5s all ease-in-out;
 }
+
+.service-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.service-item:hover {
+    scale: 1.05;
+    box-shadow: 1px 1px 20px var(--color-brown);
+}
+
 .service-item i {
     background-color: var(--color-teal);
     padding: 1.5rem;
